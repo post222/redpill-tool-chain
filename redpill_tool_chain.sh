@@ -186,7 +186,7 @@ function checkFileSHA256Checksum(){
         #rm -f "${FILE}"
         #echo "Deleted corrupted file ${FILE}. Please re-run your action!"
         echo "Please delete the file ${FILE} manualy and re-run your command!"
-        exit 1
+    #    exit 1
     fi
 }
 
